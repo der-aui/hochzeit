@@ -1,41 +1,31 @@
 <app-navigation (link)="navigateToLink($event)"></app-navigation>
-<!--<div class="background-image container-fluid">-->
-<!--  &lt;!&ndash;  <button (click)="scroll(intro)">click</button>&ndash;&gt;-->
 
-<!--  <div class="row justify-content-center height-50">-->
-<!--    <div class="col">-->
-<!--      <div class="d-flex justify-content-center text"></div>-->
-<!--    </div>-->
-<!--  </div>-->
-<!--  <div class="row justify-content-center align-items-center height-50">-->
-<!--    <div class="col flex-column">-->
-<!--      <div class="d-flex justify-content-center  text-2">Weitere Infos folgen bald ...</div>-->
-<!--    </div>-->
-<!--  </div>-->
-<!--</div>-->
+<div>
 
-<div style="background-color: #a9832380">
+  <div class="container-fluid pt-2 pb-4" style="background-color: #a9832380">
+    <div class="row text-center">
+      <div class="col-sm text-euphoria text-size-big">Die Auis heiraten!</div>
+    </div>
+    <div class="row text-center mb-2">
+      <div class="col-sm">
+        <span><img style=" width: 40%" src="assets/smile-modified.png" alt=""></span>
+      </div>
+    </div>
 
-<div class="container pt-4 mb-6">
-  <div class="row text-center">
-    <div class="col-sm">
-      <span ><img style=" width: 50%" src="assets/smile-modified.png" alt=""></span>
+    <div class="row text-center">
+      <div class="col-sm font-avenir-book text-size-body">am 23. Juli 2022</div>
+    </div>
+    <div class="row text-center mt0">
+      <div class="col-sm font-avenir-book text-size-body">in der Sektkellerei Schloss Wachenheim</div>
     </div>
   </div>
-  <div class="row text-center ">
-    <div class="col-sm text-euphoria text-size-big">Die Auis heiraten!</div>
-  </div>
-  <div class="row text-center">
-    <div class="col-sm font-avenir-book text-size-body">am 23. Juli 2022</div>
-  </div>
-  <div class="row text-center mt0">
-    <div class="col-sm font-avenir-book text-size-body">in der Sektkellerei Schloss Wachenheim</div>
-  </div>
-</div>
 
-<app-hotels id="hotels"></app-hotels>
+  <app-countdown></app-countdown>
 
-<app-lage id="lage"></app-lage>
+  <div style="background-color: #a9832380; padding-bottom: 24px">
+  <app-hotels id="hotels"></app-hotels>
+<!--  <app-lage id="lage"></app-lage>-->
+  </div>
 
 </div>
 

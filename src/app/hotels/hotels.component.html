@@ -1,16 +1,50 @@
 <div class="container">
-  <div class="row text-3">
-    <div class="col-sm text-center">Unsere Hotelvorschläge</div>
+  <div class="row text-euphoria text-size-big">
+    <div class="col-sm text-center">Hotels</div>
   </div>
   <div class="row">
-    <div class="col-sm">Bad Dürkheim (ca. 3km von Wachenheim, hier wohnen wir)</div>
-  </div>
-  <div class="row">
-    <div class="col-sm text-center">
-      One of three columns
+    <div class="col-sm text-center mt-2">
+      <app-hotelinfo
+        hotelName="Kurparkhotel"
+        street="Schlossplatz 1-4"
+        city="67098 Bad Dürkheim"
+        phone="+49 (0) 6322 797-0"
+        email="info@kurpark-hotel.de"
+        bookingLink="http://www.booking.com/Share-8awCkc"
+        webLink="https://www.kurpark-hotel.de/index.php?lang=de">
+      </app-hotelinfo>
     </div>
-    <div class="col-sm text-center">
-      One of three columns
+    <div class="col-sm text-center mt-2">
+      <app-hotelinfo
+        hotelName="Fronmühle"
+        street="Salinenstr. 15"
+        city="67098 Bad Dürkheim"
+        phone="+49 (0) 6322 94090"
+        email="info@hotel-fronmuehle.de"
+        bookingLink="http://www.booking.com/Share-iiynHS"
+        webLink="https://www.hotel-fronmuehle.de/">
+      </app-hotelinfo>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm text-center mt-2">
+      <app-hotelinfo
+        hotelName="Kaisergarten"
+        street="Weinstr. 12"
+        city="67146 Deidesheim"
+        phone="+49 (0) 6326 700077"
+        email="info@kaisergarten-deidesheim.com"
+        bookingLink="http://www.booking.com/Share-Y7pioUJ"
+        webLink="https://www.kaisergarten-deidesheim.com/">
+      </app-hotelinfo>
+    </div>
+    <div class="col-sm text-center mt-2">
+      <app-hotelinfo
+        hotelName="Mercure"
+        street="Kurbrunnenstr. 30-32"
+        city="67098 Bad Dürkheim"
+        bookingLink="http://www.booking.com/Share-y3Ikvg">
+      </app-hotelinfo>
     </div>
   </div>
 </div>

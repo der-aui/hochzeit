@@ -1,0 +1,28 @@
+.font-size-countdown {
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 400px) {
+  .font-size-countdown {
+    font-size: 14px;
+  }
+}
+
+.time-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-highlight {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+@media only screen and (max-width: 400px) {
+  .time-highlight {
+    font-weight: bold;
+    font-size: 22px;
+  }
+}

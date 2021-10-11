@@ -1,0 +1,11 @@
+<div class="hotel-info-container">
+  <div class="header">{{hotelName}}</div>
+  <div class="address">
+    <div>{{street}}</div>
+    <div class="city">{{city}}</div>
+    <div *ngIf="phone">{{phone}}</div>
+    <div *ngIf="email">{{email}}</div>
+  </div>
+  <button *ngIf="webLink" class="btn btn-link webLink" (click)="openWebLink()">Zur Webseite</button>
+  <button *ngIf="bookingLink" class="booking-button" (click)="openBookingLink()">Buchen</button>
+</div>

@@ -1,0 +1,35 @@
+.background-image {
+  background-image: url("src/assets/smile.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.test {
+  background-color: rebeccapurple;
+  align-self: center;
+}
+
+.text {
+  font-family: 'Euphoria';
+  font-weight: bold;
+  font-size : 8vw;
+  color: darkgoldenrod;
+}
+
+.text-2 {
+  font-family: 'Euphoria';
+  font-weight: bold;
+  font-size : 8vw;
+  color: black;
+}
+
+.bottom {
+  bottom: 2px;
+}
+
+.height-50 {
+  height: 50%;
+}

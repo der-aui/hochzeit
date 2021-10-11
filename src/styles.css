@@ -2,3 +2,63 @@
   font-family: Euphoria;
   src: url("assets/EuphoriaScript-Regular.ttf");
 }/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: Avenir-Black;
+  src: url("assets/AvenirLTStd-Black.otf");
+}
+
+@font-face {
+  font-family: Avenir-Book;
+  src: url("assets/AvenirLTStd-Book.otf");
+}
+
+@font-face {
+  font-family: Avenir-Roman;
+  src: url("assets/AvenirLTStd-Roman.otf");
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.text-3 {
+  font-family: 'Avenir-Book';
+  font-weight: bold;
+  font-size : 4vw;
+  color: black;
+}
+
+.font-avenir-book {
+  font-family: Avenir-Book;
+}
+
+.test-background {
+  background-color: rebeccapurple;
+}
+
+.text-euphoria {
+  font-family: Euphoria;
+}
+
+.text-size-big {
+  font-size: 58px;
+}
+
+.text-size-header {
+  font-size: 35px;
+}
+
+.text-size-body {
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 400px) {
+  .text-size-big {
+    font-size: 32px;
+  }
+
+  .text-size-body {
+    font-size: 12px;
+  }
+}

@@ -7,6 +7,16 @@
   opacity: 0.8;
 }
 
+.image-size {
+  width: 40%;
+}
+
+@media only screen and (max-width: 400px) {
+  .image-size {
+    width: 60%;
+  }
+}
+
 .test {
   background-color: rebeccapurple;
   align-self: center;

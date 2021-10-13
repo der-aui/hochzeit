@@ -1,0 +1,6 @@
+@media only screen and (max-width: 400px) {
+  .mobile-font {
+    font-size: 12px;
+    text-align: justify;
+  }
+}

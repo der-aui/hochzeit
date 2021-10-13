@@ -1,17 +1,19 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand font-avenir-book">Laura & Marc</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-height navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand font-size-navbar font-avenir-book">
+    <img class="image-size" src="assets/Logo_Hirsch_Komplett_frei.png">
+    </a>
+  <button class="navbar-toggler button-style" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav font-size-items mr-auto">
       <li class="nav-item pointer">
         <a class="nav-link font-avenir-book" (click)="emitMenuItem('hotels')">Hotels</a>
       </li>
-<!--      <li class="nav-item">-->
-<!--        <a class="nav-link disabled font-avenir-book" (click)="emitMenuItem('location')">Location</a>-->
-<!--      </li>-->
+      <li class="nav-item pointer">
+        <a class="nav-link disabled font-avenir-book" (click)="emitMenuItem('location')">Location</a>
+      </li>
 <!--      <li class="nav-item">-->
 <!--        <a class="nav-link disabled font-avenir-book" (click)="emitMenuItem('geschenke')">Geschenke</a>-->
 <!--      </li>-->

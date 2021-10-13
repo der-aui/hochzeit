@@ -1,0 +1,35 @@
+.image-size {
+  width: 85px;
+  height: 85px;
+}
+
+.navbar-height {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.font-size-items {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+
+  .font-size-navbar {
+    font-size: 18px;
+  }
+
+  .font-size-items {
+    font-size: 16px;
+  }
+
+  .button-style {
+    border-style: none;
+    font-size: 16px;
+  }
+
+  .image-size {
+    width: 42px;
+    height: 42px;
+  }
+
+}

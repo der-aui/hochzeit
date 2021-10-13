@@ -14,6 +14,8 @@ export class HotelinfoComponent implements OnInit {
   @Input() email = '';
   @Input() webLink = '';
   @Input() bookingLink = '';
+  @Input() info = false;
+  @Input() infoText = '';
 
   constructor() { }
 

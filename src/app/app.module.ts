@@ -9,6 +9,7 @@ import { LageComponent } from './lage/lage.component';
 import { FooterComponent } from './footer/footer.component';
 import { CountdownComponent } from './countdown/countdown.component';
 import { HotelinfoComponent } from './hotelinfo/hotelinfo.component';
+import { FerienwohnungenComponent } from './ferienwohnungen/ferienwohnungen.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HotelinfoComponent } from './hotelinfo/hotelinfo.component';
     LageComponent,
     FooterComponent,
     CountdownComponent,
-    HotelinfoComponent
+    HotelinfoComponent,
+    FerienwohnungenComponent
   ],
   imports: [
     BrowserModule,

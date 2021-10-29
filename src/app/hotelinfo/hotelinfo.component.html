@@ -1,12 +1,15 @@
 <div class="hotel-info-container">
   <div class="header">{{hotelName}}<span style="margin-left: 6px" *ngIf="info"><i class="bi bi-info-circle"></i></span></div>
-  <div *ngIf="infoText" style="font-family: Avenir-Black">{{infoText}}</div>
   <div class="address">
     <div>{{street}}</div>
     <div class="city">{{city}}</div>
     <div *ngIf="phone">{{phone}}</div>
     <div *ngIf="email">{{email}}</div>
   </div>
+  <div *ngIf="infoText" class="infoText">{{infoText}}</div>
+  <div *ngIf="priceDZ">{{priceDZ}}</div>
+  <div *ngIf="priceEZ">{{priceEZ}}</div>
+
   <button *ngIf="webLink" class="btn btn-link webLink" (click)="openWebLink()">Zur Webseite</button>
-  <button *ngIf="bookingLink" class="booking-button" (click)="openBookingLink()">Info / Buchen</button>
+  <button *ngIf="bookingLink" class="booking-button" (click)="openBookingLink()">Booking.com</button>
 </div>

@@ -7,14 +7,21 @@
   align-items: center;
   font-family: Avenir-Book;
   font-size: 16px;
-  //height: 350px;
+  min-height: 331px;
   justify-content: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hotel-info-container {
+    min-height: 379px;
+    justify-content: center;
+  }
 }
 
 @media only screen and (max-width: 400px) {
   .hotel-info-container {
     font-size: 12px;
-    //height: 240px;
+    min-height: 262px;
     justify-content: center;
   }
 }
